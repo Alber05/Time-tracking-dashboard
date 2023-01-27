@@ -1,6 +1,7 @@
 .userMenu__container {
   background-color: var(--Dark-blue);
-  width: 32rem;
+  width: 100%;
+  max-width: 32rem;
   height: 16.6rem;
   border-radius: 1.2rem;
   display: flex;
