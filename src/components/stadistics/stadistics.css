@@ -1,5 +1,6 @@
 .stadistics__container{
-    width: 32rem;
+    width: 100%;
+    max-width: 32rem;
     height: 14rem;
     margin: 0 auto;
     border-radius: 1.2rem;
