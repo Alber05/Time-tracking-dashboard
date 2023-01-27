@@ -1,0 +1,129 @@
+.stadistics__container{
+    width: 32rem;
+    height: 14rem;
+    margin: 0 auto;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+    .stadistics__container {
+      width: 100%;
+      height: 20rem;
+    }
+  }
+
+.work{
+    background-color: var(--Light-red-work);
+}
+.play{
+    background-color: var(--Soft-blue-play);
+}
+.study{
+    background-color: var(--Light-red-study);
+}
+.exercise{
+    background-color: var(--Lime-green-exercise);
+}
+.social{
+    background-color: var(--Violet-social);
+}
+.self-care{
+    background-color: var(--Soft-orange-self-care);
+}
+
+
+@media (min-width: 1024px) {
+    .work{
+        grid-area: 1 / 2 / 2 / 3;
+        width: 100%;
+       
+    }
+    .play{
+        grid-area: 1 / 3 / 2 / 4;
+        width: 100%;
+    }
+    .study{
+        grid-area: 1 / 4 / 2 / 5;
+        width: 100%;
+    }
+    .exercise{
+        grid-area: 2 / 2 / 3 / 3;
+        width: 100%;
+    }
+    .social{
+        grid-area: 2 / 3 / 3 / 4;
+        width: 100%;
+    }
+    .self-care{
+        grid-area: 2 / 4 / 3 / 5;
+        width: 100%;
+    }
+    
+}
+
+.stadistics__header{
+    border-radius: 0 0 -1.2rem -1.2rem;
+    height: 20%;
+    position: relative;
+}
+
+.stadistics__header img{
+    height: 6rem;
+    position: absolute;
+    top: -1rem;
+    right: 1rem;
+}
+
+.stadistics__body{
+    z-index: 999;
+    height: 80%;
+    background-color: var(--Dark-blue);
+    padding: 2rem 2rem;
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.stadistics__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.stadistics__menu h3{
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: white;
+}
+
+.stadistics__time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+}
+
+@media (min-width: 1024px) {
+    .stadistics__time{
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: start;
+      gap: 1rem;
+    }
+}
+
+.stadistics__time h2{
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: white;
+}
+
+.stadistics__time span{
+    font-size: 1.2rem;
+}

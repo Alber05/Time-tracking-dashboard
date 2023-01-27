@@ -1,0 +1,46 @@
+@font-face {
+  font-family:  "Rubik", sans-serif;
+  src: url('./assets/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+  font-family: "Rubik", sans-serif;
+  /* Primary Colors */
+  --Light-red-work: hsl(15, 100%, 70%);
+  --Soft-blue-play: hsl(195, 74%, 62%);
+  --Light-red-study: hsl(348, 100%, 68%);
+  --Lime-green-exercise: hsl(145, 58%, 55%);
+  --Violet-social: hsl(264, 64%, 52%);
+  --Soft-orange-self-care: hsl(43, 84%, 65%);
+  /* Neutral Colors */
+  --Very-dark-blue: hsl(226, 43%, 10%);
+  --Dark-blue: hsl(235, 46%, 20%);
+  --Desaturated-blue: hsl(235, 45%, 61%);
+  --Pale-Blue: hsl(236, 100%, 87%);
+  /* Fonts */
+  font-size: 62.5%;
+  color: var(--Pale-Blue);
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--Very-dark-blue);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
